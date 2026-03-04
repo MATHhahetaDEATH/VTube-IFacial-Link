@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/master.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/Constants.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Constants.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Constants.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Constants.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/ContentView.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/ContentView.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/ContentView.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/ContentView.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/DataMapper.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/DataMapper.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/DataMapper.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/DataMapper~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/DataMapper.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/MacApp.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/MacApp.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/MacApp.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/MacApp~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/MacApp.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/Models.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Models.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Models.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/Models.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/VTubeStudioManager.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/VTubeStudioManager.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/VTubeStudioManager.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/VTubeStudioManager~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/VTubeStudioManager.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/MacApp/iFacialMocapReceiver.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/iFacialMocapReceiver.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/iFacialMocapReceiver.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/iFacialMocapReceiver~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/MacApp.build/iFacialMocapReceiver.swiftdeps"
+  }
+}
