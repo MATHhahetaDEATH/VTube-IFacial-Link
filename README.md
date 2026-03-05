@@ -1,14 +1,47 @@
 # VTube-IFacial-Link
 
-A *VTube Studio* plugin that bridging facial tracking from *iFacialMocap* (IOS), enabling full apple ARKit facial tracking features. 
+A **VTube Studio** plugin that bridging facial tracking from **iFacialMocap** (IOS), enabling full apple ARKit facial tracking features. 
 
 Ported to Swift using Gemini(Antigravity). 
 
+The original python files are kept and Swift files are in the 'Macapp' folder. 
+
+![Screenshot](imgs/screenshot.png)
+
 ## Quick Start Guide
 
-1. Fill in the IP address of your iPhone. 
-2. Click Connect button respectively for iP
-3. 
+1. Ensure **"Start API (allow plugins)"** is enabled in VTube Studio settings (default port: 8001).
+2. Enter the IP address provided by **iFacialMocap** on your iPhone.
+3. Toggle the connection switches for both iFacialMocap and VTube Studio. Green indicators signify a successful connection (red indicates disconnected). Remember to click "Allow" in VTube Studio if it prompts.
+
+## Tips on Background Service
+
+Once the window opens, flipping either the UDP or VTS switch to "ON" will automatically launch the resident service in the background silently. You will see the indicator at the bottom say "Background Service Running". Even if you then close the Terminal or the App Window, as long as it's running, the service stays alive. (If you need to kill it later, you can open the UI and click the red "Force Stop Service" button).
+
+## Build from Source
+
+We have provided a packaging script to create a standalone `.app` bundle.
+
+### 1. Build the App Bundle
+
+Run the following command in the `MacApp` directory:
+
+```bash
+./build_app.sh
+```
+
+This will create `build/VTube-IFacial-Link.app`.
+
+### 2. Launching
+
+You can open the app directly:
+
+```bash
+open build/VTube-IFacial-Link.app
+```
+
+Or find it in Finder at `MacApp/build/VTube-IFacial-Link.app`.
+
 
 ## Supported Parameters
 
