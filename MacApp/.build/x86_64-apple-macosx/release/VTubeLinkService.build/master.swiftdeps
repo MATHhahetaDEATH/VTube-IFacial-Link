@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "021e9ded2001fc07206057f2aec099f97ec75fa7c27501945da85d851d649636"
+build_start_time: [1772676892, 650747000]
+build_end_time: [1772676894, 740555000]
+inputs:
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/DataMapper.swift": [1772672578, 990000000]
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeLinkService.swift": [1772674980, 610000000]
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeStudioManager.swift": [1772675980, 40000000]
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/iFacialMocapReceiver.swift": [1772674258, 720000000]

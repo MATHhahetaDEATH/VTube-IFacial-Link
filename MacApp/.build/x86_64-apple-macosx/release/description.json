@@ -1,0 +1,657 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VTubeLinkService-x86_64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/sources",
+      "importPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/DataMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeLinkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeStudioManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/iFacialMocapReceiver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkShared.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "VTubeLinkService",
+      "moduleOutputPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkService.swiftmodule",
+      "objects" : [
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/DataMapper.swift.o",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/VTubeLinkService.swift.o",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/VTubeStudioManager.swift.o",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/iFacialMocapReceiver.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx12.0",
+        "-O",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "VTubeLinkService_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/DataMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/VTubeLinkService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/VTubeStudioManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/iFacialMocapReceiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkService.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/DataMapper.swift",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeLinkService.swift",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeStudioManager.swift",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/iFacialMocapReceiver.swift"
+      ],
+      "tempsPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.VTubeLinkShared-x86_64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/sources",
+      "importPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/ConfigManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Constants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VTubeLinkShared",
+      "moduleOutputPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkShared.swiftmodule",
+      "objects" : [
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/ConfigManager.swift.o",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Constants.swift.o",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Models.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx12.0",
+        "-O",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/VTubeLinkShared-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/ConfigManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Constants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkShared.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/ConfigManager.swift",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Constants.swift",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Models.swift"
+      ],
+      "tempsPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.VTubeLinkUI-x86_64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/sources",
+      "importPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/MacApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkShared.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "VTubeLinkUI",
+      "moduleOutputPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkUI.swiftmodule",
+      "objects" : [
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/ContentView.swift.o",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/MacApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx12.0",
+        "-O",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "VTubeLinkUI_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/MacApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules/VTubeLinkUI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/ContentView.swift",
+        "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/MacApp.swift"
+      ],
+      "tempsPath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VTubeLinkService" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VTubeLinkService",
+      "-whole-module-optimization",
+      "-num-threads",
+      "20",
+      "-c",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/DataMapper.swift",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeLinkService.swift",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeStudioManager.swift",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/iFacialMocapReceiver.swift",
+      "-I",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules",
+      "-target",
+      "x86_64-apple-macosx12.0",
+      "-O",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "VTubeLinkService_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VTubeLinkShared" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VTubeLinkShared",
+      "-whole-module-optimization",
+      "-num-threads",
+      "20",
+      "-c",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/ConfigManager.swift",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Constants.swift",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Models.swift",
+      "-I",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules",
+      "-target",
+      "x86_64-apple-macosx12.0",
+      "-O",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/VTubeLinkShared-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VTubeLinkUI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VTubeLinkUI",
+      "-whole-module-optimization",
+      "-num-threads",
+      "20",
+      "-c",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/ContentView.swift",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/MacApp.swift",
+      "-I",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/Modules",
+      "-target",
+      "x86_64-apple-macosx12.0",
+      "-O",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "VTubeLinkUI_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "VTubeLinkService" : [
+      "VTubeLinkShared"
+    ],
+    "VTubeLinkShared" : [
+
+    ],
+    "VTubeLinkUI" : [
+      "VTubeLinkShared"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/DataMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeLinkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/VTubeStudioManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkService/iFacialMocapReceiver.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/sources"
+    },
+    "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/DataMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/VTubeLinkService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/VTubeStudioManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.build/iFacialMocapReceiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/ConfigManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Constants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Models.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkService.product/Objects.LinkFileList"
+    },
+    "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/ConfigManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Constants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Models.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/sources"
+    },
+    "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkUI/MacApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/sources"
+    },
+    "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/ConfigManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Constants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkShared.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.build/MacApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/VTubeLinkUI.product/Objects.LinkFileList"
+    },
+    "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

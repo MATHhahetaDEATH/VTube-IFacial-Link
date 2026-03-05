@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/master.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/ConfigManager.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/ConfigManager.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/ConfigManager.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/ConfigManager~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/ConfigManager.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Constants.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Constants.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Constants.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Constants.swiftdeps"
+  },
+  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Models.swift": {
+    "dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Models.d",
+    "object": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Models.swift.o",
+    "swiftmodule": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/Models.swiftdeps"
+  }
+}
