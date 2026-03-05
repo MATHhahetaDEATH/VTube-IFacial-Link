@@ -23,40 +23,15 @@ mkdir -p "${RESOURCES_DIR}"
 cp .build/release/VTubeLinkUI "${MACOS_DIR}/VTubeLinkUI"
 cp .build/release/VTubeLinkService "${MACOS_DIR}/VTubeLinkService"
 
-# 4. Create Info.plist
-cat > "${CONTENTS_DIR}/Info.plist" << 'PLIST'
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>CFBundleName</key>
-    <string>VTube-IFacial-Link</string>
-    <key>CFBundleDisplayName</key>
-    <string>VTube IFacial Link</string>
-    <key>CFBundleIdentifier</key>
-    <string>com.vtubelink.ifacialmocap</string>
-    <key>CFBundleVersion</key>
-    <string>1.0.0</string>
-    <key>CFBundleShortVersionString</key>
-    <string>1.0.0</string>
-    <key>CFBundleExecutable</key>
-    <string>VTubeLinkUI</string>
-    <key>CFBundlePackageType</key>
-    <string>APPL</string>
-    <key>LSMinimumSystemVersion</key>
-    <string>12.0</string>
-    <key>NSHighResolutionCapable</key>
-    <true/>
-    <key>CFBundleIconFile</key>
-    <string>AppIcon</string>
-    <key>LSApplicationCategoryType</key>
-    <string>public.app-category.utilities</string>
-</dict>
-</plist>
-PLIST
+# 4. Copy and Compile Assets (Icons)
+echo "Compiling assets..."
+actool "Resources/Assets.xcassets" --compile "${RESOURCES_DIR}" \
+    --platform macosx --minimum-deployment-target 12.0 \
+    --app-icon AppIcon --output-partial-info-plist /tmp/partial.plist --output-format xml1
 
-# 5. Create a simple launcher script that wraps VTubeLinkUI (optional, if needed)
-# The main executable is already VTubeLinkUI, which can find VTubeLinkService next to it.
+# 5. Use external Info.plist
+echo "Applying Info.plist..."
+cp "Resources/Info.plist" "${CONTENTS_DIR}/Info.plist"
 
 echo ""
 echo "=== Build Complete ==="

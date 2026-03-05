@@ -19,7 +19,10 @@ let package = Package(
         .executableTarget(
             name: "VTubeLinkUI",
             dependencies: ["VTubeLinkShared"],
-            path: "Sources/VTubeLinkUI"
+            path: "Sources/VTubeLinkUI",
+            resources: [
+                .process("../../Resources")
+            ]
         ),
         .executableTarget(
             name: "VTubeLinkService",
