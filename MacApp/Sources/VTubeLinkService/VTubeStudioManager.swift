@@ -20,6 +20,10 @@ class VTubeStudioManager: ObservableObject {
     // Reference to the captured data source (set by the service)
     weak var dataSource: IFacialMocapReceiver?
     
+    // For UI monitoring
+    private var lastBroadcastTime: Date = Date.distantPast
+    private let broadcastInterval: TimeInterval = 0.1 // 10Hz
+    
     func connect() {
         shouldReconnect = true
         let session = URLSession(configuration: .default)
@@ -264,6 +268,25 @@ class VTubeStudioManager: ObservableObject {
                     "parameterValues": paramValues
                 ] as [String : Any]
             ]
+            
+            // Broadcast for monitor UI
+            let now = Date()
+            if now.timeIntervalSince(lastBroadcastTime) >= broadcastInterval {
+                var vtsDict: [String: Float] = [:]
+                for p in params { vtsDict[p.id] = p.value }
+                
+                let update = MappingUpdate(arkitParams: capturedData.blendshapes, vtsParams: vtsDict)
+                if let encoded = try? JSONEncoder().encode(update),
+                   let jsonString = String(data: encoded, encoding: .utf8) {
+                    DistributedNotificationCenter.default().postNotificationName(
+                        NSNotification.Name("VTubeLinkMappingUpdate"),
+                        object: nil,
+                        userInfo: ["data": jsonString],
+                        deliverImmediately: true
+                    )
+                }
+                lastBroadcastTime = now
+            }
             
             do {
                 _ = try await sendAndReceive(payload)

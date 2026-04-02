@@ -20,8 +20,9 @@ mkdir -p "${MACOS_DIR}"
 mkdir -p "${RESOURCES_DIR}"
 
 # 3. Copy executables
-cp .build/release/VTubeLinkUI "${MACOS_DIR}/VTubeLinkUI"
-cp .build/release/VTubeLinkService "${MACOS_DIR}/VTubeLinkService"
+BIN_PATH=$(swift build -c release --show-bin-path)
+cp "${BIN_PATH}/VTubeLinkUI" "${MACOS_DIR}/VTubeLinkUI"
+cp "${BIN_PATH}/VTubeLinkService" "${MACOS_DIR}/VTubeLinkService"
 
 # 4. Copy and Compile Assets (Icons)
 echo "Compiling assets..."

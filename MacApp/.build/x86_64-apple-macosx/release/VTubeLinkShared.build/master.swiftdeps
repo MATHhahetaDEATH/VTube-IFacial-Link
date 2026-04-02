@@ -1,8 +1,0 @@
-version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
-options: "bb76153de1f6dcf334740494f2ed382dc427ba1790c43179cbcc4aeec72a9bbe"
-build_start_time: [1772676888, 599044000]
-build_end_time: [1772676892, 440126000]
-inputs:
-  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/ConfigManager.swift": [1772674258, 840000000]
-  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Constants.swift": [1772672640, 990000000]
-  "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/Sources/VTubeLinkShared/Models.swift": [1772672638, 980000000]

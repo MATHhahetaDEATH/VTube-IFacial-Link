@@ -10,7 +10,7 @@ struct VTubeLinkService {
     static var timer: Timer?
     
     static func main() {
-        print("VTubeLinkService Background Daemon Started.")
+        print("[Service] Background Daemon Started.")
         
         receiver = IFacialMocapReceiver()
         vtsManager = VTubeStudioManager()
@@ -27,13 +27,13 @@ struct VTubeLinkService {
     static func checkConfig() {
         let currentConfig = ConfigManager.shared.loadConfig()
         guard currentConfig != lastConfig else { return }
-        print("Service detected config transition: \(lastConfig) -> \(currentConfig)")
+        print("[Service] Config transition: \(lastConfig) -> \(currentConfig)")
         
         // Handle UDP modifications
         if currentConfig.enableUDP != lastConfig.enableUDP || (currentConfig.enableUDP && currentConfig.ipAddress != lastConfig.ipAddress) {
             receiver.stop()
             if currentConfig.enableUDP {
-                print("Starting UDP receiver on \(currentConfig.ipAddress)")
+                print("[Service] Starting UDP receiver on \(currentConfig.ipAddress)")
                 receiver.start(ipAddress: currentConfig.ipAddress)
             }
         }
@@ -41,10 +41,10 @@ struct VTubeLinkService {
         // Handle VTS modifications
         if currentConfig.enableVTS != lastConfig.enableVTS {
             if currentConfig.enableVTS {
-                print("Starting VTube Studio connection")
+                print("[Service] Starting VTube Studio connection")
                 vtsManager.connect()
             } else {
-                print("Stopping VTube Studio connection")
+                print("[Service] Stopping VTube Studio connection")
                 vtsManager.disconnect()
             }
         }

@@ -1,4 +1,0 @@
-module VTubeLinkShared {
-    header "/Volumes/Storage_SSD/anti/VTube-IFacial-Link/MacApp/.build/x86_64-apple-macosx/debug/VTubeLinkShared.build/VTubeLinkShared-Swift.h"
-    requires objc
-}

@@ -31,3 +31,13 @@ public struct CapturedData {
         self.rightEyeRotationZ = 0
     }
 }
+
+public struct MappingUpdate: Codable {
+    public var arkitParams: [String: Float]
+    public var vtsParams: [String: Float]
+    
+    public init(arkitParams: [String: Float], vtsParams: [String: Float]) {
+        self.arkitParams = arkitParams
+        self.vtsParams = vtsParams
+    }
+}

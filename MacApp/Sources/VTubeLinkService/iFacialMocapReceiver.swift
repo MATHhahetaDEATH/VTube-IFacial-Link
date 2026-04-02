@@ -23,9 +23,9 @@ class IFacialMocapReceiver: ObservableObject {
                 let data = initString.data(using: .utf8)
                 self.connection?.send(content: data, completion: .contentProcessed({ error in
                     if let error = error {
-                        print("UDP send error: \(error)")
+                        print("[UDP] Send error: \(error)")
                     } else {
-                        print("Sent initialization string to iFacialMocap")
+                        print("[UDP] Sent initialization string to iFacialMocap")
                     }
                 }))
             default:
@@ -38,7 +38,7 @@ class IFacialMocapReceiver: ObservableObject {
         do {
             listener = try NWListener(using: .udp, on: port)
             listener?.stateUpdateHandler = { state in
-                print("Listener state: \(state)")
+                print("[UDP] Listener state: \(state)")
             }
             listener?.newConnectionHandler = { newConnection in
                 newConnection.start(queue: .global())
@@ -49,7 +49,7 @@ class IFacialMocapReceiver: ObservableObject {
                 self.isReceiving = true
             }
         } catch {
-            print("Failed to create listener: \(error)")
+            print("[UDP] Failed to create listener: \(error)")
         }
     }
     
@@ -69,7 +69,7 @@ class IFacialMocapReceiver: ObservableObject {
                 self.processData(message)
                 self.receiveMessage(on: connection) // Continue listening
             } else if let error = error {
-                print("Receive error: \(error)")
+                print("[UDP] Receive error: \(error)")
             }
         }
     }
