@@ -1,6 +1,20 @@
-# VTube-IFacial-Link
+<p align="center">
+  <img src="WinApp/app_icon.png" alt="VTube-IFacial-Link" width="200">
+</p>
 
-A **VTube Studio** plugin that bridges facial tracking from **iFacialMocap** (iOS), enabling full Apple ARKit facial tracking features.
+<p align="center">
+  <strong>VTube-IFacial-Link</strong><br>
+  A bridge tool for iFacialMocap tracking to VTube Studio.
+</p>
+
+<p align="center">
+  <a href="https://dotnet.microsoft.com/en-us/download/dotnet/9.0"><img src="https://img.shields.io/badge/.NET-9.0-blueviolet?style=for-the-badge&logo=dotnet" alt=".NET 9"></a>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-0078D4?style=for-the-badge&logo=windows" alt="Platform Support">
+</p>
+
+---
 
 Originally a Python project, now natively ported to **Swift (macOS)** and **C# WPF (Windows)**. 
 
