@@ -1,125 +1,60 @@
 # VTube-IFacial-Link
 
-A **VTube Studio** plugin that bridging facial tracking from **iFacialMocap** (IOS), enabling full apple ARKit facial tracking features. 
+A **VTube Studio** plugin that bridges facial tracking from **iFacialMocap** (iOS), enabling full Apple ARKit facial tracking features.
 
-Ported to Swift using Gemini(Antigravity). 
-
-The original python files are kept and Swift files are in the 'Macapp' folder. 
+Originally a Python project, now natively ported to **Swift (macOS)** and **C# WPF (Windows)**. 
 
 ![Screenshot](imgs/screenshot.png)
 
+![Screenshot1](imgs/screenshot_win.png)
+
 ## Quick Start Guide
 
-1. Ensure **"Start API (allow plugins)"** is enabled in VTube Studio settings (default port: 8001).
-2. Enter the IP address provided by **iFacialMocap** on your iPhone.
-3. Toggle the connection switches for both iFacialMocap and VTube Studio. Green indicators signify a successful connection (red indicates disconnected). Remember to click "Allow" in VTube Studio if it prompts.
+1.  Ensure **"Start API (allow plugins)"** is enabled in VTube Studio settings (default port: 8001).
+2.  Enter the IP address provided by **iFacialMocap** on your iPhone.
+3.  Toggle the connection switches for both iFacialMocap and VTube Studio. Green indicators signify a successful connection. Remember to click "Allow" in VTube Studio when prompted for the first time.
+4.  Use the **Mapping Monitor** to visualize real-time parameter data and system logs.
 
 ## Tips on Background Service
 
-Once the window opens, flipping either the UDP or VTS switch to "ON" will automatically launch the resident service in the background silently. You will see the indicator at the bottom say "Background Service Running". Even if you then close the Terminal or the App Window, as long as it's running, the service stays alive. (If you need to kill it later, you can open the UI and click the red "Force Stop Service" button).
+The application is designed to stay out of your way while you stream:
 
-## Build from Source
+-   **On macOS**: When you start the connection, a background service is launched. Even if you close the main window, the service remains active. Use the "Force Stop Service" button in the UI to completely terminate it.
+-   **On Windows**: The app uses a **System Tray** logic. 
+    -   Closing the window will **minimize** it to the system tray (look for the VTubeLink icon near your clock).
+    -   Double-click the tray icon to restore the window, or right-click for a quick menu.
+    -   To fully exit the app, use the "Exit" option in the tray's right-click menu.
 
-We have provided a packaging script to create a standalone `.app` bundle.
+## Build from Source (Development)
 
-### 1. Build the App Bundle
+### macOS (Swift)
+**Requirements**: macOS 12+, Xcode 13+.
+1.  Navigate to the `MacApp` directory.
+2.  Run the packaging script:
+    ```bash
+    ./build_app.sh
+    ```
+3.  The standalone bundle will be created at `MacApp/build/VTube-IFacial-Link.app`.
 
-Run the following command in the `MacApp` directory:
+### Windows (C# / WPF)
+**Requirements**: Windows 10/11, Visual Studio 2022, .NET 9.0 SDK.
 
-```bash
-./build_app.sh
-```
+We provide a PowerShell script `build_win.ps1` in the `WinApp` folder with two main distribution modes:
 
-This will create `build/VTube-IFacial-Link.app`.
+1.  **Standalone (Recommended for users)**:
+    Includes the .NET 9 runtime inside the `.exe`. No installation required (~170MB).
+    ```powershell
+    .\build_win.ps1 -Mode Standalone
+    ```
 
-### 2. Launching
+2.  **Lightweight (For developers)**:
+    A tiny file (~2MB), but Requires [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) installed on the target machine.
+    ```powershell
+    .\build_win.ps1 -Mode Lightweight
+    ```
 
-You can open the app directly:
-
-```bash
-open build/VTube-IFacial-Link.app
-```
-
-Or find it in Finder at `MacApp/build/VTube-IFacial-Link.app`.
-
+Find your application in the `dist/` folder at the project root.
 
 ## Supported Parameters
 
-### VTube Studio Default
-
-- FacePositionX
-- FacePositionY
-- FacePositionZ
-- FaceAngleX
-- FaceAngleY
-- FaceAngleZ
-- MouthSmile
-- MouthOpen
-- Brows
-- TongueOut
-- EyeOpenLeft
-- EyeOpenRight
-- EyeLeftX
-- EyeLeftY
-- EyeRightX
-- EyeRightY
-- CheekPuff
-- FaceAngry
-- BrowLeftY
-- BrowRightY
-- MouthX
-
-### Custom Parameters (ARKit)
-
-- EyeBlinkLeft
-- EyeLookDownLeft
-- EyeLookInLeft
-- EyeLookOutLeft
-- EyeLookUpLeft
-- EyeSquintLeft
-- EyeWideLeft
-- EyeBlinkRight
-- EyeLookDownRight
-- EyeLookInRight
-- EyeLookOutRight
-- EyeLookUpRight
-- EyeSquintRight
-- EyeWideRight
-- JawForward
-- JawLeft
-- JawRight
-- JawOpen
-- MouthClose
-- MouthFunnel
-- MouthPucker
-- MouthLeft
-- MouthRight
-- MouthSmileLeft
-- MouthSmileRight
-- MouthFrownLeft
-- MouthFrownRight
-- MouthDimpleLeft
-- MouthDimpleRight
-- MouthStretchLeft
-- MouthStretchRight
-- MouthRollLower
-- MouthRollUpper
-- MouthShrugLower
-- MouthShrugUpper
-- MouthPressLeft
-- MouthPressRight
-- MouthLowerDownLeft
-- MouthLowerDownRight
-- MouthUpperUpLeft
-- MouthUpperUpRight
-- BrowDownLeft
-- BrowDownRight
-- BrowInnerUp
-- BrowOuterUpLeft
-- BrowOuterUpRight
-- CheekPuff
-- CheekSquintLeft
-- CheekSquintRight
-- NoseSneerLeft
-- NoseSneerRight
-- TongueOut
+The plugin supports all 52 Apple ARKit blendshapes and standard VTube Studio parameters. Refer to [this](https://github.com/xuan25/VTube-IFacial-Link) for details.

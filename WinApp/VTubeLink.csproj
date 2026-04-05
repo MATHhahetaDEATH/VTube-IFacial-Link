@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>VTubeLink</AssemblyName>
+    <Version>0.2.0</Version>
+    <Authors>kasumitang</Authors>
+    <Product>VTube Studio - iFacialMocap Bridge</Product>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="app_icon.png" />
+    <EmbeddedResource Include="app_icon.ico" />
+    <Compile Remove="Helpers\**" />
+    <None Include="Helpers\**" />
+  </ItemGroup>
+</Project>

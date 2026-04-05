@@ -35,3 +35,18 @@ config.json
 
 # VS Code
 .vscode/
+
+# .NET / Windows
+[Bb]in/
+[Oo]bj/
+dist/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Artifacts
+app_icon.ico
+Helpers/icon_gen_temp/
+
